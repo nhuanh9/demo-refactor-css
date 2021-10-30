@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+.gridwrapper {
+  overflow: auto;
+  position: relative;
+}
+
+.gridcontent {
+  width: 8.33%;
+  margin: 0;
+  border-right: 1px solid grey;
+  height: 100%;
+  float: left;
+  background-color: #84c754;
+  background-color: #f1f1f1;
+}
+
+.box-content {
+  position: absolute;
+  opacity: 0.9;
+  width: auto;
+  left: 8px;
+  right: 10px;
+}
+.box-content-header {
+  height: 90px;
+  width: 100%;
+  background: #9933cc;
+  border-right-color: transparent;
+}
+.box-content-main {
+  height: 230px;
+}
+.box-content-main-left {
+  background-color: #ffffff;
+  border: none;
+  width: 25%;
+  padding-top: 15px;
+}
+.box-content-main-left-element, .box-content-main-left-element-last {
+  background-color: #33b5e5;
+  border: none;
+  width: 100%;
+  height: 15%;
+  margin-bottom: 10px;
+}
+.box-content-main-left-element-last {
+  margin-bottom: 0;
+}
+.box-content-main-mid {
+  background-color: #ffffff;
+  border: none;
+}
+.box-content-main-right {
+  background-color: #ffffff;
+  border: none;
+  width: 25%;
+  padding-top: 15px;
+}
+.box-content-main-right-element {
+  background-color: #33b5e5;
+  border: none;
+  width: 100%;
+  height: 92%;
+}
+.box-content-footer {
+  height: 50px;
+}
+.box-content-footer-element {
+  width: 100%;
+  background: #0099cc;
+  border-right-color: transparent;
+}
+
+/*# sourceMappingURL=styles.css.map */
